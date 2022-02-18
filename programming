@@ -1,0 +1,19 @@
+                       Programming Language- C
+
+
+#include <stdio.h>
+int main()
+{
+   Char s[20], a[2];
+   Scanf(“%s”, s);
+   int len, mid, k=0;
+   len = strlen(s);
+   mid= len/2;
+  for(int i=mid; i<strlen(s); i++)
+    a[k++]=s[i];
+  for(int i=0; i<strlen(s); i++)
+   a[k++]=s[i];
+  for(int i=0; i<strlen(s); i++)
+  {
+     If(j<len-1)
+        
